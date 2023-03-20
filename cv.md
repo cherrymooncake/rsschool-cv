@@ -58,6 +58,8 @@ JS frameworks and TypeScript.
   * VS Code, Adobe Photoshop, Figma
   * UI/UX design basics
   * Backend basics (C, C++)
+
+
 ---
 
 ### EDUCATION
