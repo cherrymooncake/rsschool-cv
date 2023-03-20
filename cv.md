@@ -3,7 +3,7 @@
 ## ***Junior Frontend Developer***
 ---
 
-### About myself
+### ABOUT MYSELF
 
 
 I'm a beginner frontend developer and first-year student of the Faculty of Information Technology.
@@ -24,10 +24,14 @@ JS frameworks and TypeScript.
 
 ---
 
-### Contacts
+### CONTACTS
 
    e-mail: an.isakovaa@gmail.com
-   github: [cherrymooncake] (https://github.com/cherrymooncake)
+   
+   
+   github: [cherrymooncake](https://github.com/cherrymooncake)
+   
+   
    discord: cherrymooncake
 
 ----
