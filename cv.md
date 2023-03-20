@@ -57,7 +57,7 @@ JS frameworks and TypeScript.
   * Git, GitHub
   * VS Code, Adobe Photoshop, Figma
   * UI/UX design basics
-  * Backend basics (C, C++)
+  * Backend basics
 
 
 ---
