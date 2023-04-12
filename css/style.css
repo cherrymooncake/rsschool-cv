@@ -1,0 +1,320 @@
+@font-face {
+  font-family: "AbhayaLibre";
+  font-style: normal;
+  src: local("AbhayaLibre-Regular"),
+    url('../assets/fonts/AbhayaLibre-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "AbhayaLibre";
+  font-style: normal;
+  font-weight: bold;
+  src: local("AbhayaLibre-Bold"),
+    url('../assets/fonts/AbhayaLibre-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "Minadrop";
+  font-style: normal;
+  src: local("Minadrop-Bold"),
+    url('../assets/fonts/Minnadrop-Regular.otf');
+}
+
+body {
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+  font-family: "AbhayaLibre", sans-serif;
+}
+
+.container-centered {
+  margin: 20px auto;
+  width: 1024px;
+  font-family: "AbhayaLibre", sans-serif;
+  font-size: 18px;
+  line-height: 2.5;
+  background-color: #ffffff;
+  box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.23);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-size: 0.8rem;
+  color: #ffffff;
+  background-color: #62866C;
+}
+
+.nav__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav__item {
+  margin-right: 82px;
+}
+
+.nav__item:first-child {
+  margin-left: 75px;
+}
+
+.nav__item:last-child {
+  margin-right: 0;
+}
+
+.nav__link {
+  font-size: 18px;
+  line-height: 24px;
+  color: white;
+  text-decoration: none;
+}
+
+.nav__link:hover,
+.nav__link:focus,
+.nav__link:active {
+  opacity: .75;
+}
+
+.two-columns {
+  display: flex;
+}
+
+.left-column {
+  width: 42%;
+  color: #505050;
+  background-color: #BBA6DD;
+}
+
+.right-column {
+  width: 58%;
+  padding: 40px;
+}
+
+header {
+  padding: 30px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+header img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+  border: 10px solid #BBA6DD;
+  border-radius: 50%;
+}
+
+header h1 {
+  margin-bottom: 10px;
+  font-family: "MinaDrop", "AbhayaLibre", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.1;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  color: #62866C;
+}
+
+header h2 {
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: #62866C;
+}
+
+main {
+  padding: 0 40px;
+}
+
+main h3 {
+  width: 136px;
+  font-family: "MinaDrop";
+  margin: 40px auto 20px;
+  padding: 5px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #ffffff;
+  background-color: #62866C;
+}
+
+main .info__contacts h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  transform: translate(0, -50%);
+}
+
+main li {
+  margin-bottom: 10px;
+}
+
+.info__contacts li img {
+  vertical-align: middle;
+  margin-right: 15px;
+  width: 30px;
+  height: 30px;
+}
+
+.info__contacts li p {
+  display: inline;
+  vertical-align: middle;
+}
+
+.info__contacts a {
+  text-decoration: none;
+  color: #505050;
+}
+
+main :not(.info__contacts) ul {
+  list-style-type: disc;
+  margin-left: 50px;
+}
+
+.language-name {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.right-column .sub-header {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.sub-header {
+  font-family: "MinaDrop";
+}
+
+.sub-header img{
+  width: 30px;
+  height: 30px;
+  transform: translate(0px, 10px);
+}
+
+.right-column .about-myself .sub-header {
+  margin-top: 0;
+}
+
+.about-myself p {
+  margin-bottom: 10px;
+  margin-left: 45px;
+  line-height: 35px;
+  text-indent: 10px;
+}
+
+.right-column h3 {
+  flex: 1;
+  vertical-align: middle;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #505050;
+  border-bottom: 2px solid #62866C;
+}
+
+.right-column img {
+  vertical-align: middle;
+  margin-right: 15px;
+}
+
+.right-column p {
+  color: #505050;
+}
+
+.right-column .skills {
+  display: flex;
+}
+
+.soft-skills {
+  width: 50%;
+  margin-left: 50px;
+}
+
+.hard-skills {
+  width: 50%;
+}
+
+.education p {
+  margin-left: 45px;
+}
+
+.education p strong {
+  font-weight: 700;
+}
+
+.courses ul {
+  list-style-type: disc;
+  margin-left: 45px;
+  margin-bottom: 30px;
+}
+
+.courses li {
+  margin-bottom: 10px;
+  color: #505050;
+}
+
+.skills h3 {
+  font-family: "MinaDrop";
+}
+
+.project-example p {
+  margin-left: 45px;
+  line-height: 35px;
+}
+
+.example-link {
+  font-size: 18px;
+  line-height: 24px;
+  color: #505050;
+  text-decoration: none;
+}
+
+.example-link:hover,
+.example-link:focus,
+.example-link:active {
+  opacity: .75;
+}
+
+.code-example p {
+  margin-left: 45px;
+  line-height: 35px;
+}
+
+pre {
+  margin-left: -320px;
+  margin-top: 15px;
+  padding-left: 5px;
+  padding-right: 15px;
+  font-family: monospace;
+  font-size: 0.9rem;
+  background-color: #f5f5f5;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-size: 0.8rem;
+  color: #ffffff;
+  background-color: #62866C;
+}
+
+footer a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+footer p {
+  zoom: 1.7;
+}
+
+footer .github-icon {
+  margin-right: 10px;
+}
+
+.my-github {
+  display: flex;
+  align-items: center;
+}
